@@ -1,5 +1,4 @@
 #pragma once
-#include "ryg_rans/rans_byte.h"
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
@@ -8,6 +7,7 @@
 #include <sys/mman.h>
 #include <stdexcept> 
 #include <memory>
+#include "external/ryg_rans/rans_byte.h"
 
 namespace rans {
 inline std::vector<uint8_t> encode(const std::vector<uint8_t>& input) {

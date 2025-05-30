@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <cstdint>
 #include <cassert>
-#include "ryg_rans/rans_byte.h"
+#include "external/ryg_rans/rans_byte.h"
 
 namespace rans {
 inline std::vector<uint8_t> decode(const std::vector<uint8_t>& compressed) {
